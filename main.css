@@ -19,9 +19,18 @@ header{
 .contato{
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
-
+      justify-content:space-between;
+      
+      font-size: 15px;
+      font-style: normal;
       max-height: 32px;
       width: 100%;
       padding:0px 30px 0px 30px ;
+}
+
+.nav_margin{
+      border-bottom: 1px solid lightgrey;
+      width: 100%;
+      display: flex;
+      justify-content: center;
 }
