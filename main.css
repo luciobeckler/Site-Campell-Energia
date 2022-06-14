@@ -34,3 +34,75 @@ header{
       display: flex;
       justify-content: center;
 }
+
+.orcamento_1{
+      display: flex;
+      flex-direction: row;
+      background-image: url(imagens/primeira_imagem_de_capa.jpg);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 90%;
+      align-items: center;
+}
+
+.text_orcamento{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      width: 60%;
+      color: white;
+}
+
+.text_orcamento h1{
+      max-width: 55%;
+      text-align: center;
+}
+
+.text_orcamento h3{
+      text-align: center;
+      max-width: 55%;
+      font-size: 23px;
+}
+
+.text_orcamento button{
+      background-color: #46c756;
+      border: none;
+      border-radius: 0%;
+      padding:10px 20px 10px 20px;
+}
+
+.formulary{
+      width: 35%;
+      height: 85%;
+      background-color: rgba(18, 54, 90, 0.75);
+      margin-bottom: 20px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.formulary form{
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      height: 90%;
+}
+
+.formulary form h4{
+      align-self: center;
+      text-align: center;
+      max-width: 75%;
+}
+
+.small_camp{
+      width: 100%;
+      height: 70%;
+      border-radius: 0%;
+}
+
+.formulary form p{
+      font-size: 12px;
+}
