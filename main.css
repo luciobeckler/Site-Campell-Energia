@@ -151,3 +151,17 @@ header{
       text-align: start;
       color: grey;
 }
+
+.bg_img{
+      height: 45%;
+      background-image: url(imagens/segunda_imagem_de_capa.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-top: 75px;
+}
+
+.etapas_planejamento{
+      font-size: 47px;
+      color: white;
+
+}
