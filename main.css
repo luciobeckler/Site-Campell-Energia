@@ -139,3 +139,15 @@ header{
 .enviar:hover{
       background-color: #059509;
 }
+
+.quem_somos{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      color:rgb(23, 52, 92);
+}
+
+.quem_somos p{
+      text-align: start;
+      color: grey;
+}
