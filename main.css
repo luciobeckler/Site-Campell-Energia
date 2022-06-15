@@ -109,14 +109,13 @@ header{
 .small_camp{
       width: 100%;
       height: 27px;
-      margin: 15px;
-     
+      margin: 15px 0 15px  0;
 }
 
 .big_camp{
       width: 100%;
       align-self: center;
-      margin: 15px;
+      margin: 15px 0 15px  0;
 }
 
 .formulary form p{
@@ -165,3 +164,76 @@ header{
       color: white;
 
 }
+
+.formulary_2{
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      height: 90%;
+}
+
+.bg_lightgray{
+      background-color: lightgray;
+}
+
+.formulary_2 label{
+      font-weight: bold;
+      font-size: 14px;
+}
+
+.texto_orcamento_2{
+      display: flex;
+      flex-direction: column;
+      background-color: ;
+      height: 48%;
+      /* JUSTIFY CONTENTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT */
+}
+
+.bloco_1{
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+}
+
+.bloco_1 div{
+      display: flex;
+      flex-direction: row;
+      height:fit-content;
+      align-items: flex-end;
+}
+
+.bloco_1 a{
+      text-decoration: none;
+      color: black;
+}
+
+.bloco_1 button{
+      border: 1px solid black;
+}
+
+.bloco_2{
+      color: #707070 ;
+      font-size: 14px;
+}
+
+.bloco_3{
+      font-style: italic;
+      font-size: 12px;
+      font-weight: bold;
+}
+
+
+
+.texto_orcamento_2 > button{
+      border: none;
+      background-color: #302c74 ;
+      padding: 12px 62px 12px 62px;
+      align-self: center;
+      border-radius: 50px;
+      color: white;
+      font-weight: bold;
+}
+
+
