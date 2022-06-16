@@ -186,7 +186,6 @@ header{
 .texto_orcamento_2{
       display: flex;
       flex-direction: column;
-      background-color: ;
       height: 48%;
       /* JUSTIFY CONTENTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT */
 }
@@ -234,6 +233,44 @@ header{
       border-radius: 50px;
       color: white;
       font-weight: bold;
+}
+
+.texto_orcamento_2 > button:hover{
+      background-color: mediumseagreen;
+}
+
+.contato_footer{
+      background-color:rgb(48, 44, 116);
+}
+
+.colunas_footer{
+      color: white;
+      text-decoration: none;
+}
+
+.menu_footer{
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      
+}
+
+.margin_top_bot{
+      margin:  30px 0px 50px 0px;
+}
+
+.margin_top_bot a{
+      text-decoration: none;
+      color: white;
+}
+
+footer{
+      justify-self: center;
+      padding: 8px 30px 8px 30px ;
+      text-align: center;
+      font-size: 12px;
+      color: white;
+      background-color: rgb(17, 14, 72);
 }
 
 
