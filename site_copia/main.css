@@ -179,11 +179,22 @@ header{
       flex-direction: column;
       align-items: flex-start;
       color:rgb(23, 52, 92);
+      margin-top: 10px;
 }
 
 .quem_somos p{
       text-align: start;
       color: grey;
+}
+
+@media(max-width:800px){
+      .quem_somos_column{
+            display: flex;
+            flex-direction: column;
+      }
+      .quem_somos_column > div{
+            width:100% ;
+      }
 }
 
 .bg_img{
