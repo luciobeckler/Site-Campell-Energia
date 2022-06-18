@@ -200,15 +200,28 @@ header{
 .bg_img{
       height: 45%;
       background-image: url(imagens/segunda_imagem_de_capa.jpg);
-      background-size: cover;
       background-repeat: no-repeat;
       margin-top: 75px;
+      background-size: cover;
+      
+      
 }
 
 .etapas_planejamento{
       font-size: 47px;
       color: white;
+      text-align: center;
+}
 
+@media(max-width:800px){
+      .bg_img{
+           height:30%;
+      }
+
+      .etapas_planejamento{
+            font-size: 28px;
+            align-self: center;
+      }
 }
 
 .formulary_2{
