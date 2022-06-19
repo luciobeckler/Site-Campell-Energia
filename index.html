@@ -210,8 +210,8 @@
 
       <!-- formulario2 -->
 
-      <div class="container  mb-5">
-            <div class="row troca_column d-flex justify-content-between">
+      <div class="container mb-5">
+            <div class="row direct_column d-flex justify-content-between">
                   <div class="col-4 mt-5 container_orcamento_2">
                         <form class="row g-3">
                               <div class="col-12">
@@ -304,7 +304,7 @@
 
 
       <div class="w-100  justify-content-center d-flex contato_footer">
-            <div class="w-100 d-flex   justify-content-center container m-0">
+            <div class="w-100 d-flex  justify-content-center container m-0">
                   <div class="d-flex w-100 colunas_footer row row-cols-1 row-cols-sm-2 row-cols-md-4">
                         <div class="col menu_footer margin_top_bot">
                               <a href="#">Home</a>
@@ -337,7 +337,7 @@
                                                 src="imagens/icon_youtube.png" alt="icon_youtube"></a>
                               </div>
                         </div>
-                        <div class="col margin_top_bot">
+                        <div class="email_footer col margin_top_bot">
                               <h5>E-mail</h5>
                               <a href="#">contato@campellenergia.com.br</a>
                         </div>
@@ -358,80 +358,96 @@
 
 
 <!-- AJUSTAR O CONTAINER -->
+<!-- 
+      <div class="container mb-5">
+            <div class="row direct_column d-flex justify-content-between">
+                  <div class="col-4 mt-5 container_orcamento_2">
+                        <form class="row g-3">
+                              <div class="col-12">
+                                    <h3 class="text-center">SOLICITE UM ORÇAMENTO</h3>
+                              </div>
+                              <div class="col-md-6  mt-0">
+                                    <label for="inputNome4" class="form-label">Nome*</label>
+                                    <input type="email" class="form-control lightgray h-50" id="inputNome4">
+                              </div>
 
-<!-- <div class="d-flex h-100  ">
-            <div class="d-flex flex h-100 row align-items-start justify-content-around">
-                  <div class="d-flex col-5 h-100">
-                        <form class="formulary_2 mr-5 mt-5 w-100 m-2">
-                              <h3 class="text-center">SOLICITE UM ORÇAMENTO</h3>
-                              <div class="row">
-                                    <div class="col">
-                                          <label for="">Nome*</label>
-                                          <input type="text" class=" bg_lightgray mt-0 small_camp mb-1 form-control">
-                                    </div>
-                                    <div class="col">
-                                          <label for="">Email*</label>
-                                          <input type="email" class=" bg_lightgray mt-0 small_camp mb-1 form-control">
-                                    </div>
+                              <div class="col-md-6  mt-0">
+                                    <label for="inputEmail4" class="form-label">E-mail*</label>
+                                    <input type="password" class="form-control lightgray h-50" id="inputEmail4">
                               </div>
-                              <div class="row">
-                                    <div class="col">
-                                          <label for="">Telefone*</label>
-                                          <input type="tel" class=" bg_lightgray mt-0 small_camp mb-1 form-control">
-                                    </div>
-                                    <div class="col">
-                                          <label for="exampleInputEmail1">Assunto* </label>
-                                          <input type="text" class=" bg_lightgray mt-0 small_camp mb-1 form-control">
-                                    </div>
+
+                              <div class="col-md-6  mt-0">
+                                    <label for="inputTelefone4" class="form-label">Telefone*</label>
+                                    <input type="email" class="form-control lightgray h-50" id="inputTelefone4">
                               </div>
-                              <div class="form-group">
+
+                              <div class="col-md-6  mt-0">
+                                    <label for="inputAssunto4" class="form-label">Assunto*</label>
+                                    <input type="password" class="form-control  lightgray h-50" id="inputAssunto4">
+                              </div>
+
+                              <div class="col-12 form-group  mt-0">
                                     <label for="exampleFormControlTextarea1">Mensagem*</label>
-                                    <textarea class=" bg_lightgray mt-1 big_camp mb-1 form-control"
-                                          id="exampleFormControlTextarea1" rows="4"></textarea>
-                              </div>
-                              <div class="form-group">
-                                    <label class="mb-2" for="exampleFormControlInput1">Para orçamento de Projeto de
-                                          Energia Solar
-                                          Fotovoltaica, informe abaixo qual seu gasto com a conta de luz*:</label>
-                                    <input placeholder="R$" type="number"
-                                          class=" bg_lightgray  mt-0 small_camp form-control"
-                                          id="exampleFormControlInput1">
+                                    <textarea class="form-control lightgray" id="exampleFormControlTextarea1"
+                                          rows="3"></textarea>
                               </div>
 
-                              <div class="texto_orcamento_2">
-                                    <div class="bloco_1">
-                                          <div>
-                                                <strong> Encaminhe a sua última conta atualizada</strong>
-                                                <p>(opcional)</p>
-                                          </div>
-                                          <a href="#"><button href="#">Escolher arquivo</button>
-                                                Nenhum escolhido</a>
-                                    </div>
+                              <div class="col-12  mt-2">
+                                    <label for="inputAddress2" class="form-label">Para orçamento de Projeto de Energia
+                                          Solar Fotovoltaica, informe abaixo qual seu gasto com a conta de luz*:</label>
+                                    <input type="number" class="form-control lightgray" id="inputAddress2"
+                                          placeholder="R$">
+                              </div>
 
-                                    <div class="bloco_2">
-                                          <p>Permitido apenas arquivos PDF, JPG, JPEG com até 2MB</p>
+                              <div class="col-12 mt-2">
+                                    <div class="">
+                                          <p class="mb-0" style="font-size: 14px;"><strong> Encaminhe a sua última conta
+                                                      atualizada
+                                                </strong>(opcional) <br>
+                                                <a href="#"><button href="#">Escolher arquivo</button>
+                                                      Nenhum escolhido</a>
+                                          </p>
                                     </div>
+                              </div>
 
-                                    <div class="bloco_2">
-                                          <p>Encaminhando sua conta de luz atualizada, apresentaremos uma proposta 100%
+                              <div class="col-12  mt-2">
+                                    <div class="">
+                                          <p class="mb-0 text_information"> Permitido apenas arquivos PDF, JPG, JPEG com
+                                                até 2MB</p>
+                                    </div>
+                              </div>
+
+                              <div class="col-12 mt-2">
+                                    <div class="">
+                                          <p class="mb-0 text_information"> Encaminhando sua conta de luz atualizada,
+                                                apresentaremos uma
+                                                proposta 100%
                                                 personalizada para atender sua necessidade energética específica, com
                                                 todos os detalhes técnicos e tempo de retorno do investimento. Tudo isso
                                                 sem custo e sem compromisso.</p>
                                     </div>
+                              </div>
 
-                                    <div class="bloco_3">
-                                          <p>Ao enviar suas informações, você está ciente e concorda com a nossa
-                                                Política de Privacidade LGPD.</p>
+                              <div class="col-12 mt-2">
+                                    <div class="">
+                                          <strong class="font_size_12">Ao enviar suas informações, você está ciente
+                                                e
+                                                concorda
+                                                com a
+                                                nossa Política de Privacidade LGPD.</strong>
                                     </div>
+                              </div>
 
+                              <div class="col-12 d-flex justify-content-center">
                                     <button type="submit" class="enviar_2">Enviar</button>
-
                               </div>
                         </form>
                   </div>
-                  <div class="col-7">
-                        <img height="100%" width="95%" src="imagens/bg-contato.jpg" alt="">
+                  <div class="bg_form">
+
+                        <div class="col-7 ">
+                              <img height="100%" width="100%" src="imagens/bg-contato.jpg" alt="">
+                        </div>
                   </div>
             </div>
-
       </div> -->
