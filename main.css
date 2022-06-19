@@ -224,13 +224,97 @@ header{
       }
 }
 
+.container_orcamento_2{
+      height: 80%;
+}
+
+.container_orcamento_2 label{
+      font-size: 14px;
+      font-weight: bolder;
+}
+
+.container_orcamento_2 a{
+      text-decoration: none;
+      height: 22px;
+      color: black;
+}
+
+.lightgray{
+      background-color: #d9d9d9 ;
+      border: 1px solid rgb(118, 118, 118);
+      border-radius: 15px;
+}
+
+.text_information{
+      font-size: 14px;
+}
+
+.font_size_12{
+      font-size: 12px;
+}
+
+.enviar_2{
+      border: none;
+      background-color: #302c74 ;
+      padding: 12px 62px 12px 62px;
+      align-self: center;
+      border-radius: 50px;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+}
+
+.enviar_2:hover{
+      background-color: rgba(0, 102, 0, 70%);
+}
+
+
+.contato_footer{
+      background-color: rgb(48, 44, 116);
+}
+
+.colunas_footer{
+      color: white;
+      text-decoration: none;
+}
+
+.menu_footer{
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      
+}
+
+.margin_top_bot{
+      margin:  30px 0px 50px 0px;
+}
+
+.margin_top_bot a{
+      text-decoration: none;
+      color: white;
+}
+
+footer{
+      justify-self: center;
+      padding: 8px 30px 8px 30px ;
+      text-align: center;
+      font-size: 12px;
+      color: white;
+      background-color: rgb(17, 14, 72);
+}
+
+
+
+
+/* 
+
+
 .formulary_2{
 
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-
-      height: 90%;
+      
 }
 
 .bg_lightgray{
@@ -246,7 +330,6 @@ header{
       display: flex;
       flex-direction: column;
       height: 48%;
-      /* JUSTIFY CONTENTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT */
 }
 
 .bloco_1{
@@ -298,36 +381,19 @@ header{
       background-color: mediumseagreen;
 }
 
-.contato_footer{
-      background-color:rgb(48, 44, 116);
+.col-5{
+      max-width: 30%;
 }
 
-.colunas_footer{
-      color: white;
-      text-decoration: none;
+.col-7{
+      max-width: 55%;
 }
 
-.menu_footer{
-      display: flex;
-      flex-direction: column;
-      text-decoration: none;
-      
-}
-
-.margin_top_bot{
-      margin:  30px 0px 50px 0px;
-}
-
-.margin_top_bot a{
-      text-decoration: none;
-      color: white;
-}
-
-footer{
-      justify-self: center;
-      padding: 8px 30px 8px 30px ;
-      text-align: center;
-      font-size: 12px;
-      color: white;
-      background-color: rgb(17, 14, 72);
-}
+@media(max-width:1025px){
+      .col-7{
+            max-height: 70%;
+      }
+      .col-5{
+            max-height: 100%;
+      }
+} */
