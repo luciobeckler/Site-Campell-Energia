@@ -1,0 +1,448 @@
+html{
+      height: 100%;
+}
+
+body{
+      height: 100%;
+}
+
+header{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      background-color: rgb(18, 54, 90);
+      color: white;
+      justify-content: space-between;
+}
+
+.contato{
+      display: flex;
+      flex-direction: row;
+      justify-content:space-between;
+      
+      font-size: 15px;
+      font-style: normal;
+      max-height: 32px;
+      width: 100%;
+      padding:0px 30px 0px 30px ;
+}
+
+@media(max-width:800px){
+      .contato{
+            align-items: center;
+            flex-direction: column;
+            max-height: 64px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+      }
+}
+
+.nav_margin{
+      border-bottom: 1px solid lightgrey;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+}
+
+.orcamento_1{
+      display: flex;
+      flex-direction: row;
+      background-image: url(imagens/primeira_imagem_de_capa.jpg);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 90%;
+      justify-content: center;
+}
+
+.container_orcamento{
+      width: 40%;
+      height: 70%;
+      display: flex;
+}
+
+
+.text_orcamento{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+      color: white;
+}
+
+.text_orcamento h1{
+      width: 100%;
+      text-align: center;
+}
+
+.text_orcamento h3{
+      text-align: center;
+      width: 100%;
+      font-size: 23px;
+}
+
+.text_orcamento button{
+      background-color: #46c756;
+      border: none;
+      border-radius: 0%;
+      padding:10px 20px 10px 20px;
+}
+
+.btn_wpp:hover{
+      background-color: #39A346;
+}
+
+.formulary{
+      width: 30%;
+      height: 80%;
+      background-color: rgba(18, 54, 90, 0.75);
+      margin-bottom: 20px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+}
+
+.formulary form{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+
+      width: 90%;
+      height: 90%;
+}
+
+.formulary form h4{
+      align-self: center;
+      text-align: center;
+      max-width: 75%;
+      font-size: 21px;
+}
+
+.small_camp{
+      width: 100%;
+      height: 27px;
+      margin: 15px 0 15px  0;
+}
+
+.big_camp{
+      width: 100%;
+      align-self: center;
+      margin: 15px 0 15px  0;
+}
+
+.formulary form p{
+      font-size: 12px;
+      font-weight: bold;
+}
+
+.button{
+      width: 100%;
+      justify-self: flex-start;
+}
+
+.enviar{
+      background-color: rgb(0, 102, 0);
+      border: none;
+      padding: 10px 29px 10px 29px;
+      color: white;
+}
+
+.enviar:hover{
+      background-color: #059509;
+}
+
+@media (max-width: 800px){
+      .orcamento_1{
+            height: 130%;
+            flex-direction: column;
+            width: 100%;
+      }
+
+      .container_orcamento{
+            align-self: center;
+            width: 70%;
+            height: 50%;
+      }
+
+      .formulary{
+            align-self: center;
+            width: 85%;
+      }
+}
+
+.quem_somos{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      color:rgb(23, 52, 92);
+      margin-top: 10px;
+}
+
+.quem_somos p{
+      text-align: start;
+      color: grey;
+}
+
+@media(max-width:800px){
+      .quem_somos_column{
+            display: flex;
+            flex-direction: column;
+      }
+      .quem_somos_column > div{
+            width:100% ;
+      }
+}
+
+.bg_img{
+      height: 45%;
+      background-image: url(imagens/segunda_imagem_de_capa.jpg);
+      background-repeat: no-repeat;
+      margin-top: 75px;
+      background-size: cover;
+      
+      
+}
+
+.etapas_planejamento{
+      font-size: 47px;
+      color: white;
+      text-align: center;
+}
+
+@media(max-width:800px){
+      .bg_img{
+           height:30%;
+      }
+
+      .etapas_planejamento{
+            font-size: 28px;
+            align-self: center;
+      }
+}
+
+
+.container_orcamento_2 label{
+      font-size: 14px;
+      font-weight: bolder;
+}
+
+.container_orcamento_2 a{
+      text-decoration: none;
+      height: 22px;
+      color: black;
+}
+
+.lightgray{
+      background-color: #d9d9d9 ;
+      border: 1px solid rgb(118, 118, 118);
+      border-radius: 15px;
+}
+
+.text_information{
+      font-size: 14px;
+}
+
+.font_size_12{
+      font-size: 12px;
+}
+
+.enviar_2{
+      border: none;
+      background-color: #302c74 ;
+      padding: 12px 62px 12px 62px;
+      align-self: center;
+      border-radius: 50px;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+}
+
+.enviar_2:hover{
+      background-color: rgba(0, 102, 0, 70%);
+}
+
+@media(max-width:1200px){
+      .col-7 img{
+           height:70%;
+      }
+}
+
+@media (max-width:800px){
+      .direct_column{
+            flex-direction: column;
+      }
+      .col-4{
+            justify-self: center;
+            width: 100%;
+            margin-bottom: 50px;
+      }
+      .col-7 img{
+            display: none;
+      }
+      .col-7{
+            height: 500px;
+            width: 100%;
+            background-image: url(imagens/bg-contato.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+      }
+
+      .container{ 
+            margin: 0px;
+            margin-bottom: 0px;
+      }
+}
+
+
+.contato_footer{
+      background-color: rgb(48, 44, 116);
+}
+
+.colunas_footer{
+      color: white;
+      text-decoration: none;
+}
+
+.menu_footer{
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      
+}
+
+.margin_top_bot{
+      margin:  30px 0px 50px 0px;
+}
+
+.margin_top_bot a{
+      text-decoration: none;
+      color: white;
+}
+
+footer{
+      justify-self: center;
+      padding: 8px 30px 8px 30px ;
+      text-align: center;
+      font-size: 12px;
+      color: white;
+      background-color: rgb(17, 14, 72);
+}
+
+@media (max-width:800px){
+      .colunas_footer{
+            font-size:14px ;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+      }
+      
+      .margin_top_bot{
+            margin:   25px 0px 25px 0px;
+      }
+
+      .email_footer{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+      }
+      
+}
+
+
+
+
+/* 
+
+
+.formulary_2{
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      
+}
+
+.bg_lightgray{
+      background-color: lightgray;
+}
+
+.formulary_2 label{
+      font-weight: bold;
+      font-size: 14px;
+}
+
+.texto_orcamento_2{
+      display: flex;
+      flex-direction: column;
+      height: 48%;
+}
+
+.bloco_1{
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+}
+
+.bloco_1 div{
+      display: flex;
+      flex-direction: row;
+      height:fit-content;
+      align-items: flex-end;
+}
+
+.bloco_1 a{
+      text-decoration: none;
+      color: black;
+}
+
+.bloco_1 button{
+      border: 1px solid black;
+}
+
+.bloco_2{
+      color: #707070 ;
+      font-size: 14px;
+}
+
+.bloco_3{
+      font-style: italic;
+      font-size: 12px;
+      font-weight: bold;
+}
+
+
+
+.texto_orcamento_2 > button{
+      border: none;
+      background-color: #302c74 ;
+      padding: 12px 62px 12px 62px;
+      align-self: center;
+      border-radius: 50px;
+      color: white;
+      font-weight: bold;
+}
+
+.texto_orcamento_2 > button:hover{
+      background-color: mediumseagreen;
+}
+
+.col-5{
+      max-width: 30%;
+}
+
+.col-7{
+      max-width: 55%;
+}
+
+@media(max-width:1025px){
+      .col-7{
+            max-height: 70%;
+      }
+      .col-5{
+            max-height: 100%;
+      }
+} */
